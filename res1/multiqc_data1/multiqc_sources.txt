@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	oil_R2_sample	/home/avkamelin/hm1/oil_R2_sample_fastqc.zip
+FastQC	all_sections	oilMP_S4_L001_R1_001_sample	/home/avkamelin/hm1/oilMP_S4_L001_R1_001_sample_fastqc.zip
+FastQC	all_sections	oilMP_S4_L001_R2_001_sample	/home/avkamelin/hm1/oilMP_S4_L001_R2_001_sample_fastqc.zip
+FastQC	all_sections	oil_R1_sample	/home/avkamelin/hm1/oil_R1_sample_fastqc.zip
