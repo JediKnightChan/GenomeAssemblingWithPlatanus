@@ -31,5 +31,3 @@ Project structure: res1 contains files and quality reports before quality contro
 
 ### Contigs, scaffolds, gaps analysis
 Jupyter notebook with this analysis is [./res2/LengthsAnalyzer.ipynb](https://github.com/JediKnightChan/GenomeAssemblingWithPlatanus/blob/master/res2/LengthsAnalyzer.ipynb)
-
-Jupyter notebook
