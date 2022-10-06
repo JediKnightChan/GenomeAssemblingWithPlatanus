@@ -20,3 +20,16 @@ Project structure: res1 contains files and quality reports before quality contro
    - ```platanus assemble    -o platanus    -f *.fastq -t 4```
    - ```platanus scaffold -o platanus -c platanus_contig.fa -IP1 oil_R1_sample.fastq oil_R2_sample.fastq -OP2 oilMP_S4_L001_R1_001.fastq oilMP_S4_L001_R2_001.fastq -t 6```
    - ```platanus gap_close -o platanus -c platanus_scaffold.fa -IP1 oil_R1_sample.fastq oil_R2_sample.fastq -OP2 oilMP_S4_L001_R1_001.fastq oilMP_S4_L001_R2_001.fastq -t 6```
+   
+## Intermediates and results
+
+### Quality before QC and adapter cutoff
+![Quality before qc](./qual_before_qc.png)
+
+### Quality after QC and adapter cutoff
+![Quality after qc](./qual_after_qc.png)
+
+### Contigs, scaffolds, gaps analysis
+Jupyter notebook with this analysis is [./res2/LengthsAnalyzer.ipynb](https://github.com/JediKnightChan/GenomeAssemblingWithPlatanus/blob/master/res2/LengthsAnalyzer.ipynb)
+
+Jupyter notebook
